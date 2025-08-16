@@ -1,0 +1,7 @@
+.header-container {
+    background-color: #855E42;
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    box-shadow: 4px 4px 8px 2px rgba(34, 60, 80, 0.48);
+}

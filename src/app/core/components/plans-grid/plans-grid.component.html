@@ -1,0 +1,5 @@
+<app-content-container>
+  <section class="plan-grid">
+    <app-plan-card *ngFor="let plan of plans$ | async" [plan]="plan"></app-plan-card>
+  </section>
+</app-content-container>

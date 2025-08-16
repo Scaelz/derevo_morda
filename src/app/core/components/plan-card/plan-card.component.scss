@@ -1,0 +1,20 @@
+.card {
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    width: var(--card-width);
+    transition: all 200ms ease-in-out;
+
+    &__image {
+        height: var(--card-width);;
+        width: var(--card-width);;
+        object-fit: cover
+    }
+
+    &__info {
+        padding: 0.5rem;
+    }
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
